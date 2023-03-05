@@ -1,0 +1,236 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "table": [
+    {
+      "name": "viren",
+      "address": "valsad",
+      "id": 1
+    },
+    {
+      "name": "Kenal",
+      "address": "valsad",
+      "id": 2
+    },
+    {
+      "name": "raj",
+      "address": "Navsari",
+      "id": 3
+    }
+  ],
+  "employee": [
+    {
+      "name": "Viren",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "inactive",
+      "rate": "56",
+      "balance": "-56",
+      "deposite": "5656",
+      "id": 1
+    },
+    {
+      "name": "dddd",
+      "description": "dcddd",
+      "status": "inactive",
+      "rate": "454",
+      "balance": "454",
+      "deposite": "454",
+      "id": 2
+    },
+    {
+      "name": "Viren",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "inactive",
+      "rate": "56",
+      "balance": "56",
+      "deposite": "56",
+      "id": 3
+    },
+    {
+      "name": "dddd",
+      "description": "dcddd",
+      "status": "inactive",
+      "rate": "454",
+      "balance": "454",
+      "deposite": "454",
+      "id": 4
+    },
+    {
+      "name": "fdgfdg",
+      "description": "rgrdg",
+      "status": "inactive",
+      "rate": "25",
+      "balance": "25",
+      "deposite": "25",
+      "id": 5
+    },
+    {
+      "name": "fdgdffg",
+      "description": "fghfg",
+      "status": "error",
+      "rate": "56",
+      "balance": "56",
+      "deposite": "56",
+      "id": 6
+    },
+    {
+      "name": "xvxcvcxxcvcxvcx",
+      "description": "RTHTR",
+      "status": "inactive",
+      "rate": "12",
+      "balance": "56",
+      "deposite": "12",
+      "id": 8
+    },
+    {
+      "name": "sfdd",
+      "description": "dsfdsfd",
+      "status": "error",
+      "rate": "25",
+      "balance": "25",
+      "deposite": "325",
+      "id": 9
+    },
+    {
+      "name": "fdgfd",
+      "description": "dfgfd",
+      "status": "inactive",
+      "rate": "12",
+      "balance": "12",
+      "deposite": "56",
+      "id": 10
+    },
+    {
+      "name": "fgfgf",
+      "description": "fdgfd",
+      "status": "inactive",
+      "rate": "12",
+      "balance": "12",
+      "deposite": "56",
+      "id": 11
+    },
+    {
+      "name": "virenkumar",
+      "description": "wedewd",
+      "status": "success",
+      "rate": "56",
+      "balance": "12",
+      "deposite": "56",
+      "id": 12
+    },
+    {
+      "name": "MIHIR",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "error",
+      "rate": "56",
+      "balance": "12",
+      "deposite": "56",
+      "id": 13
+    },
+    {
+      "name": "sdfsd",
+      "description": "sdfsd",
+      "status": "error",
+      "rate": "56",
+      "balance": "-12",
+      "deposite": "56",
+      "id": 14
+    },
+    {
+      "name": "virenkumar",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "inactive",
+      "rate": "12",
+      "balance": "-15.00",
+      "deposite": "256",
+      "id": 15
+    },
+    {
+      "name": "gfdg",
+      "description": "fdgf",
+      "status": "error",
+      "rate": "15",
+      "balance": "-10",
+      "deposite": "54522",
+      "id": 16
+    },
+    {
+      "name": "aaaaaaaaaaaa",
+      "description": "aaaaaaa",
+      "status": "inactive",
+      "rate": "55.55",
+      "balance": "-15.1515",
+      "deposite": "1515",
+      "id": 17
+    },
+    {
+      "name": "virenkumar",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "success",
+      "rate": "56",
+      "balance": "56",
+      "deposite": "56",
+      "id": 18
+    },
+    {
+      "name": "dsfdf",
+      "description": "sCsc",
+      "status": "inactive",
+      "rate": "56",
+      "balance": "56",
+      "deposite": "12",
+      "id": 19
+    },
+    {
+      "name": "virenkumar",
+      "description": "dsfdsfnlkf pcojdsjdsjv sodpjdsofjsdpofjspfjdspojfdpsjdpsojfdsjfdsjfdjfkjdlkfdslksdlkdslkfjs",
+      "status": "error",
+      "rate": "56",
+      "balance": "56",
+      "deposite": "56",
+      "id": 20
+    },
+    {
+      "name": "viren",
+      "description": "sdfsd",
+      "status": "open",
+      "rate": "12",
+      "balance": "56",
+      "deposite": "56",
+      "id": 21
+    },
+    {
+      "name": "virenkumar",
+      "description": "RTHTR",
+      "status": "open",
+      "rate": "123",
+      "balance": "123",
+      "deposite": "123",
+      "id": 22
+    },
+    {
+      "name": "Viren",
+      "description": "wedewd",
+      "status": "success",
+      "rate": "4654",
+      "balance": "51651",
+      "deposite": "656165",
+      "id": 23
+    }
+  ]
+}
