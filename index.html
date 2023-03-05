@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- start : Container -->
+    <section class="container">
+        <!-- start : header -->
+        <header class="header">
+            <select name="" id="filter" class="filter">
+                <option value="all" class="first-option" selected>Filter</option>
+            </select>
+            <button id="add-button" class="add-button flex item-center"><img src="./assests/add.png" alt="add-logo"
+                    class="add-img"><span class="add-text">Add Employee</span></button>
+        </header>
+        <!-- end : header -->
+        <!-- start : form -->
+        <form id="form">
+            <div class="form-div-1">
+                <div class="name-div"><label for="name">NAME</label><input type="text" id="name" name="name"
+                        placeholder="Enter Name"></div>
+                <div class="discription-div ml-20 "><label for="name">DISCRIPTION</label><input type="text"
+                        name="description" id="discription" placeholder="Enter Discription">
+                </div>
+                <div class="status-div ml-20 "><label for="name">STATUS</label><select name="status" id="status"
+                        class="select">
+                        <option value="">Select Status</option>
+                        <option value="open">open</option>
+                        <option value="inactive">inactive</option>
+                        <option value="error">error</option>
+                        <option value="success">success</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-div-2">
+                <div class="rate-div"><label for="rate">RATE</label><input type="text" id="rate" name="rate"
+                        placeholder="Enter Rate"></div>
+                <div class="balance-div ml-20 "><label for="balance">BALANCE</label><input type="text" id="balance"
+                        name="balance" placeholder="Enter Balance">
+                </div>
+                <div class="deposite-div ml-20 "><label for="deposite">DEPOSITE</label><input type="text" id="deposite"
+                        name="deposite" placeholder="Enter deposite">
+                </div>
+            </div>
+            <span id="error-span"></span>
+            <div class="form-buttons">
+                <button class="cancel-button" id="cancel-button"><span class="cancel-text">Cancel</span>
+                </button><button class="save-button ml-20" id="save-button"><span class="save-text">Save</span></button>
+                <button class="update-button ml-20" id="update-button" disabled="disabled"><span
+                        class="update-text">Update</span></button>
+            </div>
+        </form>
+        <!-- end : form -->
+
+        <!-- start : table -->
+        <div class="table-container">
+            <table id="table">
+
+            </table>
+        </div>
+        <!-- end : table -->
+    </section>
+    <!-- end : Container -->
+</body>
+<script src="./index.js"></script>
+
+</html>
